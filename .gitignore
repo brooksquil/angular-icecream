@@ -1,0 +1,10 @@
+
+lib/.sass-cache
+lib/node_modules
+css/
+dist/
+.idea/
+.DS_Store
+lib/semantic
+lib/semantic.json
+lib/package-lock.json

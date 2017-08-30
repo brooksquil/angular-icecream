@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Angular Ice Cream Shoppe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+</head>
+
+<body ng-app="IceCreamApp">
+    <div ng-include="'partials/navbar.html'"></div>
+    <h1>Ice Cream, Ice Cream, We All Scream For Ice Cream</h1>
+    <!-- single ticks inside quotes so taken literally and not evaluated -->
+    <!-- <div ng-include="'partials/greetings.html'"></div> -->
+
+    <div ng-view></div>
+
+
+
+    <!-- local node module script for angular: -->
+    <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+    <!-- scripts for js files: -->
+    <script src="app/app.js"></script>
+    <script src="app/factories/FlavorFactory.js"></script>
+    <script src="app/controllers/FlavorCtrl.js"></script>
+</body>
+
+</html>

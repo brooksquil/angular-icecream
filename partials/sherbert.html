@@ -1,0 +1,12 @@
+<article class="sherbert">
+
+    <section>
+        <h2>Sherberts/Non-dairy</h2>
+        <div ng-repeat="item in flavors">
+            <!-- bang- means find items that are not true -->
+            <div ng-show="{{!item.milk}}">
+                <a href="#/item/{{item.id}}">{{item.title}}</a>
+            </div>
+        </div>
+    </section>
+</article>

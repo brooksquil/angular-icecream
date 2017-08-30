@@ -1,0 +1,10 @@
+<article class="cream">
+    <section>
+        <h2>Creamy Choices</h2>
+        <div ng-repeat="item in flavors">
+            <div ng-show="{{item.milk}}">
+                <a href="#/item/{{item.id}}">{{item.title}}</a>
+            </div>
+        </div>
+    </section>
+</article>

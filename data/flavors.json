@@ -1,0 +1,53 @@
+{
+    "flavors": [{
+        "id": 102,
+        "type": "cream",
+        "title": "Vanilla",
+        "price": 1.00,
+        "milk": true
+    }, {
+        "id": 103,
+        "type": "cream",
+        "title": "Triple Chocolate",
+        "price": 1.50,
+        "milk": true
+    }, {
+        "id": 104,
+        "type": "sherbet",
+        "title": "Rainbow",
+        "price": 1.25
+    }, {
+        "id": 105,
+        "type": "sherbet",
+        "title": "Cotton Candy Swirl",
+        "price": 13.50
+    }, {
+        "id": 106,
+        "type": "sherbet",
+        "title": "Blue Rasberry",
+        "price": 2.00
+    }, {
+        "id": 107,
+        "type": "sherbet",
+        "title": "Lemon Time",
+        "price": 1.80
+    }, {
+        "id": 108,
+        "type": "cream",
+        "title": "Strawberry Twist",
+        "price": 1.20,
+        "milk": true
+    }, {
+        "id": 109,
+        "type": "cream",
+        "title": "Banana Cream Pie",
+        "price": 1.50,
+        "milk": true
+    }, {
+        "id": 112,
+        "type": "cream",
+        "title": "Key Lime Surprise",
+        "price": 1.30,
+        "milk": true
+    }]
+}

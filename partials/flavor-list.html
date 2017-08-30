@@ -1,0 +1,17 @@
+<article class="product-list">
+    <header>
+        <h1>List of Flavors</h1>
+    </header>
+    <section>
+        <div ng-repeat="item in flavors">
+            <!-- #- means change view/do not refresh on link click -->
+            <a href="#/item/{{item.id}}">{{item.title}}</a>
+        </div>
+        <h2>The Milky Kind</h2>
+        <div ng-repeat="item in flavors">
+            <div ng-show="{{item.milk}}">
+                <a href="#/item/{{item.id}}">{{item.title}}</a>
+            </div>
+        </div>
+    </section>
+</article>
